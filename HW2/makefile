@@ -8,7 +8,7 @@ hw2_main:	hw2_lib.h hw2_main.c
 
 
 hw2:	hw2_main hw2_lib
-		gcc hw2_lib.o hw2_main.c -o hw2
+		gcc hw2_lib.o hw2_main.c -o hw2	-lm
 
 clean:
 		rm hw2
